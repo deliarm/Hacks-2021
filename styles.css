@@ -1,0 +1,177 @@
+
+html , body{
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+
+#testing{
+  color: #23b370;
+}
+
+footer{
+  width:100%;
+  height:20%; //your desired height
+  position:absolute;
+  bottom:0;
+  left:0;
+  background: #deeaee;
+}
+
+.bg-white { 
+  margin-top:300px 
+  font:size 1.5em;
+}
+.list-unstyled{
+  font-size: 15px;
+}
+
+#on-color{
+  background-color: #c2d8df;
+}
+
+#button-addon1 {
+  color: #ffc371;
+}
+
+
+i {
+  color: #ffc371;
+}
+
+.form-control::placeholder {
+  font-size: 0.95rem;
+  color: #aaa;
+  font-style: italic;
+}
+
+.form-control.shadow-0:focus {
+  box-shadow: none;
+}
+
+
+#main{
+    overflow:auto;
+    padding-bottom:100px;
+}
+.jumbotron {
+    background-image: url("/images/working from home.jpg");
+    background-size: cover;
+  }
+
+  #top {
+    text-align: center;
+    padding: 40px;
+    background: url(images/abstract2.jpg)no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+  
+  }
+  
+  #top .jumbotron {
+    border-radius: 20px;
+    background-color: rgba(255,255,255, 0.50);
+    padding: 100px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  #introText {
+    min-height:100%;
+    margin-top: 30px;
+    padding-top: 30px;
+    text-align: center;
+    max-width: 1400px;
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  #stressImage {
+    margin-right: 20px;
+  }
+  
+  .button1 {
+      width: 50%;
+      margin: 0 auto;
+      display: inline-block;
+      padding: 0.3em 1.2em;
+      border-radius: 2em;
+      box-sizing: border-box;
+      text-decoration: none;
+      font-family: 'Roboto',sans-serif;
+      font-weight:300;
+      color: white;
+      background-color:#4eb5f1;
+      text-align:center;
+      transition: all 0.2s;
+  }
+
+  .button1:hover {
+      background-color:#4095c6
+  }
+
+  .navbar{
+    margin-bottom: 0!important;
+    background: #deeaee;
+ }
+
+.container-fluid{
+  background: #deeaee;
+}
+
+.radiobuttongroup {
+  display: inline-block;
+  text-align: center;
+}
+.radiobuttongroup {
+  display: block;
+}
+
+.resultContainer {
+  text-align: center;
+}
+
+.stressResults {
+  width: 80%;
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 1.3em;
+  background: #3858d4;
+  border-radius: .75em;
+  color: #f3f3f3;
+  text-align: center;
+}
+
+.relationResults {
+  width: 80%;
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 1.3em;
+  background: #23b370;
+  border-radius: .75em;
+  color: #f3f3f3;
+  text-align: center;
+}
+
+.prodResults {
+  width: 80%;
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 1.3em;
+  background: rgb(174, 17, 236);
+  border-radius: .75em;
+  color: #f3f3f3;
+  text-align: center;
+}
+
+.physResults {
+  width: 80%;
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 1.3em;
+  background: rgb(238, 47, 47);
+  border-radius: .75em;
+  color: #f3f3f3;
+  text-align: center;
+}
